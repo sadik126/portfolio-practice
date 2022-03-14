@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Dongle:wght@700&family=Encode+Sans:wght@500&family=Montserrat&family=Poppins:wght@400;500&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 /* navber start  */
 
@@ -17,11 +22,20 @@
 }
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", cursive;
   text-transform: uppercase;
-  font-weight: 700;
-  padding: 0 1.7rem;
+  font-weight: 100;
+
   color: black;
+}
+
+#navbarSupportedContent ul > li a {
+  color: rgb(3, 3, 5);
+  padding: 1.7rem;
+}
+
+#navbarSupportedContent ul > li a:hover {
+  color: rgb(204, 32, 69);
 }
 
 /* navber ends  */
